@@ -79,13 +79,12 @@ body {
   user-select: none;
 }
 
-.label::after {
+.dot {
   display: block;
-  content: '';
   width: 100%;
   height: 100%;
-  border-radius: 50%;
   background: rgb(231, 255, 97);
+  border-radius: 50%;
   transition: background 0.2s linear;
 }
 
