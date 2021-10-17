@@ -27,7 +27,7 @@ body {
   margin: 0 auto;
   padding: 3rem;
   background: rgb(28, 0, 110);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
 }
 
 .input {
@@ -38,7 +38,7 @@ body {
   width: 100%;
   overflow: hidden;
   border-radius: 1rem;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.5);
 }
 
 .text-window {
@@ -55,7 +55,7 @@ body {
 
 .img {
   width: 12.5%;
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 .text {
@@ -86,7 +86,7 @@ body {
   background: rgb(231, 255, 97);
   border-radius: 50%;
   transition: background 0.2s linear;
-  box-shadow: 0 0 10px rgb(14, 0, 53);
+  box-shadow: 0 0 1rem rgb(14, 0, 53);
 }
 
 .label:hover > .dot,
@@ -106,7 +106,7 @@ body {
 #slide6:checked ~ .controls .label:nth-of-type(6) .dot,
 #slide7:checked ~ .controls .label:nth-of-type(7) .dot,
 #slide8:checked ~ .controls .label:nth-of-type(8) .dot {
-  border: 2px solid orange;
+  border: 0.2rem solid orange;
   background: none;
   transform: scale(1.2);
   transition: border-color 0.2s linear;
